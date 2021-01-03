@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
+  <title>Contabilidade</title>
+
+  <!-- Import Styles -->
+  <link rel="stylesheet" href="./assets/styles.css" />
+
+  <!-- Import Vue.js -->
+  <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+
+</head>
+
+<body>
+  <div id="app">
+    <div class="page-content">
+      <form>
+
+        <!-- BANCOS -->
+        <label class="label-radio-group">Banco</label>
+        <div class="radio-group">
+          <input type="radio" id="bradesco" name="bank" value="bradesco">
+          <label for="bradesco">Bradesco</label>
+
+          <input type="radio" id="santander" name="bank" value="santander">
+          <label for="santander">Santander</label>
+
+          <input type="radio" id="C6" name="bank" value="C6">
+          <label for="C6">C6</label>
+        </div>
+
+        <!-- CATEGORIA -->
+        <label class="label-radio-group">Categoria</label>
+        <div class="radio-group">
+          <input type="radio" id="saude" name="bank" value="saude">
+          <label for="saude">Saúde</label>
+
+          <input type="radio" id="educacao" name="bank" value="educacao">
+          <label for="educacao">Educação</label>
+
+          <input type="radio" id="carro" name="bank" value="carro">
+          <label for="carro">Carro</label>
+        </div>
+
+        <!--DESCRICAO-->
+        <div class="input-group">
+          <label for="descricao">Descrição</label>
+          <input id="descricao" type="text">
+          <label class="error">Requerido</label>
+        </div>
+
+        <!--VALOR-->
+        <div class="input-group">
+          <label for="valor">Valor</label>
+          <input id="valor" type="text">
+          <label class="error">Requerido</label>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Import App -->
+  <script src="./main.js"></script>
+
+</body>
+
+</html>

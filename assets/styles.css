@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Roboto&display=swap");
+body {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.page-content {
+  padding: 15px;
+}
+
+input[type=text] {
+  outline: none;
+  border: none;
+  font-family: "Barlow Condensed", sans-serif !important;
+  font-size: 18px !important;
+}
+
+.label-radio-group {
+  font-size: 14px !important;
+}
+
+.radio-group {
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-bottom: solid 2px #615420;
+}
+.radio-group label {
+  font-size: 16px !important;
+  margin-right: 15px;
+}
+
+.input-group {
+  display: grid;
+  padding-bottom: 10px;
+}
+.input-group label {
+  font-size: 14px;
+}
+.input-group input {
+  background-color: #f0f0f0;
+  border-bottom: solid 2px #615420;
+  padding: 5px;
+}
+.input-group input:focus {
+  background-color: #fce7d7;
+  border-bottom: solid 2px #f16832;
+}
+
+.error {
+  font-size: 12px !important;
+  color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */

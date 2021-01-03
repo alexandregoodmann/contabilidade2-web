@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Roboto&display=swap");
+
+$input-background: #f0f0f0;
+$input-border: #615420;
+$input-background-focus: #fce7d7;
+$input-border-focus: #f16832;
+$label-color: #615420;
+
+$font-family: "Barlow Condensed", sans-serif;
+
+body {
+    font-family: $font-family;
+}
+
+.page-content {
+    padding: 15px;
+}
+
+input[type="text"] {
+    outline: none;
+    border: none;
+    font-family: $font-family !important;
+    font-size: 18px !important;
+}
+
+.label-radio-group {
+    font-size: 14px !important;
+}
+
+.radio-group {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: solid 2px #615420;
+    label {
+        font-size: 16px !important;
+        margin-right: 15px;
+    }
+}
+
+.input-group {
+    display: grid;
+    padding-bottom: 10px;
+    label {
+        font-size: 14px;
+    }
+    input {
+        background-color: $input-background;
+        border-bottom: solid 2px $input-border;
+        padding: 5px;
+        &:focus {
+            background-color: $input-background-focus;
+            border-bottom: solid 2px $input-border-focus;
+        }
+    }
+}
+
+.error {
+    font-size: 12px !important;
+    color: red;
+}
